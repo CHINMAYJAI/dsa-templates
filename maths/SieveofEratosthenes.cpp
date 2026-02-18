@@ -1,3 +1,5 @@
+// reference question: count primes in range l to r (leetcode: 204)
+
 vector<bool> sieve(int n) {
     vector<bool> isPrime(n+1, true);
     isPrime[0] = isPrime[1] = false;
