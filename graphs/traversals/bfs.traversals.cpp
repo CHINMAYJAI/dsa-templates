@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void bfsTraversal(int V, vector<int> adj[]) {
+vector<int> bfsTraversal(int V, vector<int> adj[]) {
     int visited[V]={0};
     visited[0]=1;
     queue<int>q;
