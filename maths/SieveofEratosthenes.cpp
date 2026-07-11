@@ -1,4 +1,6 @@
 // reference question: count primes in range l to r (leetcode: 204)
+#include<bits/stdc++.h>
+using namespace std;
 
 vector<bool> sieve(int n) {
     vector<bool> isPrime(n+1, true);
